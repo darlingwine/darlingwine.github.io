@@ -3,9 +3,11 @@
     <div class="flex flex-wrap">
         {% for bartender in site.data.winebar.bartenders %}
         <div class="flex flex-col items-center px-7 pb-4">
+            {% capture bartender_photo_url
+            %}/assets/img/bartenders/{{bartender.name}}.png {% endcapture %}
             <img
-                src="{{ '/assets/img/bartenders/{{bartender.name}}.png' | relative_url}}"
-                class="rounded-full w-40"
+                src="{{bartender_photo_url | relative_url }}"
+                class="rounded-full border-4 border-[#ee3831] w-40"
             />
             <h3 class="bitter-font">{{bartender.name}}</h3>
             <p>{{bartender.tidbit}}</p>
