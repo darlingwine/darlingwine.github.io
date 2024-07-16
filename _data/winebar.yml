@@ -1,0 +1,55 @@
+about: >-
+  Sit and intelligently sip a glass.
+  The actual color of the wine can range from violet,
+  typical of young wines, through red for mature wines,
+  to brown for older red wines.
+  Some whites age better in stainless steel.
+
+glass_list: >-
+  Roll the wine around your mouth with your tongue and note the different flavors.
+  Burgundy is the definition of a strong red. A complex cabernet is a good one.
+  Sulfites are found in nearly all wines, produced by the yeast during fermentation.
+  The Romans cooked grape juice in lead pots to sweeten their wine... and to poison their wine.
+  Chenin blanc boasts a bouquet of fresh pears, saffron, jasmine, ginger, and quince.
+
+cocktails: >-
+  Roll the wine around your mouth with your tongue and note the different flavors.
+  Burgundy is the definition of a strong red. A complex cabernet is a good one.
+  Sulfites are found in nearly all wines, produced by the yeast during fermentation.
+  The Romans cooked grape juice in lead pots to sweeten their wine... and to poison their wine.
+  Chenin blanc boasts a bouquet of fresh pears, saffron, jasmine, ginger, and quince.
+
+# when modifying this data please upload a new photo to /assets/img/bartenders with the format Name.png to match the bartenders name here
+bartenders:
+  - name: Alex
+    tidbit: likes oranges!
+  - name: Callie
+    tidbit: likes roses!
+  - name: Joe
+    tidbit: likes reds!
+  - name: Sean
+    tidbit: likes whites!
+
+email: DarlingWineBarLex@gmail.com
+phone: "(859) 608-2107"
+address: >-
+  101 W Loudon Ave Ste 164 <br />
+  Lexington, Kentucky 40508
+
+calendar_link: https://calendar.google.com/calendar/ical/c_643c1f996f5c7ae49e084c9a298ad1a39bb0204bcc6d9d83ae89f831e875f1ff%40group.calendar.google.com/public/basic.ics
+
+open_hours:
+  - name: Monday
+    hours: "Closed"
+  - name: Tuesday
+    hours: "4:00pm - 10:00pm"
+  - name: Wednesday
+    hours: "4:00pm - 10:00pm"
+  - name: Thursday
+    hours: "4:00pm - 10:00pm"
+  - name: Friday
+    hours: "2:00pm - 11:00pm"
+  - name: Saturday
+    hours: "2:00pm - 11:00pm"
+  - name: Sunday
+    hours: "2:00pm - 9:00pm"

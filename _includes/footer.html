@@ -1,0 +1,24 @@
+<footer id="hours" class="mx-auto text-center w-2/3 mb-10">
+    <h2 class="bitter-font text-2xl mx-auto pb-2">Hours & Directions</h2>
+    <div class="flex justify-between">
+       <div>
+        {% for day in site.data.winebar.open_hours %} {{day.name}} : {{day.hours}}
+        <br />
+        {% endfor %}
+
+       </div>
+       <div>
+        <h3 class="bitter-font text-xl">Darling Wine Bar</h3>
+
+        <a href="tel:{{{site.data.winebar.phone}}"><em>{{site.data.winebar.phone}}</em></a
+        ><br />
+        <a href="mailto:{{site.data.winebar.email}}">{{site.data.winebar.email}}</a
+        ><br />
+        {{site.data.winebar.address}} <br />
+        <a
+            class="pt-9 bitter-font"
+            href="https://www.google.com/maps/dir//Darling+Wine+Bar,+101+W+Loudon+Ave,+Lexington,+KY+40508/@38.0579147,-84.4832703,17.41z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8842453b3b3d6deb:0xb0ce284827db4ef0!2m2!1d-84.4813152!2d38.0580767?entry=ttu"
+            ><strong>Get Directions</strong></a
+       </div>
+    </div>
+</footer>
