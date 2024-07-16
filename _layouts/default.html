@@ -8,17 +8,26 @@
         {% include headernav.html %} {% include about.html %}
         <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4" />
 
-        <img src="/assets/img/photo1.png" class="mx-auto" />
+        <img
+            src="{{ '/assets/img/photo1.png' | relative_url}}"
+            class="mx-auto"
+        />
         <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4" />
         {% include glass_list.html%}
         <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4" />
         {% include cocktails.html%}
         <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4" />
-        <img src="/assets/img/photo5.png" class="mx-auto" />
+        <img
+            src="{{ '/assets/img/photo5.png ' | relative_url}}"
+            class="mx-auto"
+        />
         <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4" />
 
         {% include events.html%}
-        <img src="/assets/img/photo3.png" class="mx-auto" />
+        <img
+            src="{{ '/assets/img/photo3.png' | relative_url}}"
+            class="mx-auto"
+        />
         <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4" />
         {% include bartenders.html%}
         <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4" />
