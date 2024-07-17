@@ -8,11 +8,11 @@
     <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4 rounded-lg" />
     <h2 class="bitter-font text-2xl mx-auto pb-2">{{ event.summary }}</h2>
     <h2 class="bitter-font text-xl mx-auto pb-2">
-        {{ event.start_time | date: '%A %B %d' }}
+        {{ event.start_time | date: '%A %B %d', America/New_York }}
     </h2>
     <h2 class="bitter-font text-xl mx-auto pb-2">
-        {{ event.start_time | date: '%-I:%M %P' }} - {{ event.end_time | date:
-        '%-I:%M %P' }}
+        {{ event.start_time | date: '%-I:%M %P', America/New_York }} - {{
+        event.end_time | date: '%-I:%M %P', America/New_York }}
     </h2>
     <p>{{ event.simple_html_description }}</p>
     {% endical %}
