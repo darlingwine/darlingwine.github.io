@@ -6,31 +6,29 @@
 
     <body class="container mx-auto w-3/4 bg-[#FFEBE7] text-[#ee3831]">
         {% include headernav.html %} {% include about.html %}
-        <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4" />
+        <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4 rounded-md" />
 
         <img
             src="{{ '/assets/img/photo1.png' | relative_url}}"
-            class="mx-auto"
+            class="mx-auto rounded-lg"
         />
-        <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4" />
+        <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4 rounded-md" />
         {% include glass_list.html%}
-        <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4" />
+        <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4 rounded-md" />
         {% include cocktails.html%}
-        <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4" />
+        <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4 rounded-md" />
         <img
             src="{{ '/assets/img/photo5.png ' | relative_url}}"
-            class="mx-auto"
+            class="mx-auto rounded-lg"
         />
-        <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4" />
+        <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4 rounded-md" />
 
         {% include events.html%}
-        <img
-            src="{{ '/assets/img/photo3.png' | relative_url}}"
-            class="mx-auto"
-        />
-        <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4" />
+        <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4 rounded-md" />
+        {% include instagram.html%}
+        <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4 rounded-md" />
         {% include bartenders.html%}
-        <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4" />
+        <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4 rounded-md" />
         {% include footer.html %}
     </body>
 </html>
