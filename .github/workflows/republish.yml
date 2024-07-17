@@ -31,5 +31,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.Darling }}
+          GITHUB_TOKEN: ${{ secrets.DARLING }}
           publish_dir: ./_site
