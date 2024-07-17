@@ -37,7 +37,6 @@ jobs:
           name: github-pages
           path: ./_site
   deploy:
-    needs: build-and-deploy
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
