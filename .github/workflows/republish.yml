@@ -8,54 +8,54 @@ permissions:
   id-token: write
   contents: read
 
-  jobs:
-    build:
-      runs-on: ubuntu-latest
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-      steps:
-        - name: Checkout repository
-          uses: actions/checkout@v3
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-        - name: Set up Ruby
-          uses: ruby/setup-ruby@v1
-          with:
-            ruby-version: "3.2" # Adjust the Ruby version as needed
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2" # Adjust the Ruby version as needed
 
-        - name: Install dependencies
-          run: |
-            gem install bundler
-            bundle install
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
 
-        - name: Build Jekyll site
-          run: bundle exec jekyll build
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
 
-        - name: Verify build output
-          run: ls -la _site
+      - name: Verify build output
+        run: ls -la _site
 
-        - name: Upload artifact
-          uses: actions/upload-artifact@v4
-          with:
-            name: github-pages
-            path: _site # This is the default output directory for Jekyll builds
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: github-pages
+          path: _site # This is the default output directory for Jekyll builds
 
-    deploy:
-      needs: build
-      runs-on: ubuntu-latest
-      permissions:
-        id-token: write
-        contents: write
-      steps:
-        - name: Checkout repository
-          uses: actions/checkout@v3
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-        - name: Download artifact
-          uses: actions/download-artifact@v4
-          with:
-            name: github-pages
-            path: ./_site # Ensure this matches the upload path
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: ./_site # Ensure this matches the upload path
 
-        - name: Deploy to GitHub Pages
-          uses: peaceiris/actions-gh-pages@v3
-          with:
-            github_token: ${{ secrets.DARLING }}
-            publish_dir: ./_site
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.DARLING }}
+          publish_dir: ./_site
