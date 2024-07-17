@@ -2,7 +2,7 @@ name: Republish
 
 on:
   schedule:
-    - cron: "1 0 * * *"
+    - cron: "25 0 * * *"
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -15,4 +15,4 @@ jobs:
         env:
           # You must create a personal token with repo access as GitHub does
           # not yet support server-to-server page builds.
-          USER_TOKEN: $Darling
+          USER_TOKEN: ${{ secrets.Darling }}
