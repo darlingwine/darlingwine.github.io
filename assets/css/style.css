@@ -4,3 +4,11 @@
     font-weight: 400;
     font-style: normal;
 }
+
+#events a {
+    text-decoration: underline;
+}
+
+#events a :hover {
+    font-weight: bold;
+}

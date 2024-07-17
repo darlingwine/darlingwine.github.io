@@ -1,6 +1,7 @@
-<section id="bartenders" class="mx-auto text-center w-1/2">
+<section id="bartenders" class="mx-auto text-center w-1/2 lg:w-2/3">
     <h2 class="bitter-font text-2xl mx-auto pb-2">Bartenders</h2>
-    <div class="flex flex-wrap">
+
+    <div class="flex flex-wrap justify-center">
         {% for bartender in site.data.winebar.bartenders %}
         <div class="flex flex-col items-center px-7 pb-4">
             {% capture bartender_photo_url
