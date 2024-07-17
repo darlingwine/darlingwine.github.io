@@ -9,6 +9,6 @@
     text-decoration: underline;
 }
 
-#events a :hover {
-    font-weight: bold;
+#events a:hover {
+    font-style: italic;
 }

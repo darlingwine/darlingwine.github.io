@@ -1,8 +1,8 @@
 <footer id="hours" class="mx-auto text-center w-2/3 mb-10">
     <h2 class="bitter-font text-2xl mx-auto pb-2">Hours & Directions</h2>
-    <div class="flex flex-col lg:flex-row justify-between pb-4">
+    <div class="flex flex-col lg:flex-row justify-around pb-4">
        <div>
-        {% for day in site.data.winebar.open_hours %} {{day.name}} : {{day.hours}}
+        {% for day in site.data.winebar.open_hours %} <span class="bitter-font">{{day.name}}</span> : {{day.hours}}
         <br />
         {% endfor %}
 
