@@ -2,7 +2,7 @@ name: Rebuild
 
 on:
   schedule:
-    - cron: "*/2 * * * *" # Runs every 30 minutes
+    - cron: "*/2 * * * *"
 
 permissions:
   id-token: write
@@ -40,22 +40,15 @@ jobs:
 
   deploy:
     needs: build
-    runs-on: ubuntu-latest
     permissions:
+      pages: write
       id-token: write
-      contents: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-          path: ./_site # Ensure this matches the upload path
-
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.DARLING }}
-          publish_dir: ./_site
+        id: deployment
+        uses: actions/deploy-pages@v4
