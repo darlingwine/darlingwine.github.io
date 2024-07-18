@@ -18,7 +18,8 @@ cocktails: >-
   Darling offers a full cocktail bar with a limited list of features aimed to reflect the season.
   (Spritzs are always in)
 
-Check our Specials Board for fun and whimsy
+  Check our Specials Board for fun and whimsy
+
 # when modifying this data please upload a new photo to /assets/img/bartenders with the format Name.png to match the bartenders name here
 bartenders:
   - name: Alex
