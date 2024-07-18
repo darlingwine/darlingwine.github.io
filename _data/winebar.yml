@@ -1,24 +1,24 @@
 about: >-
-  Sit and intelligently sip a glass.
-  The actual color of the wine can range from violet,
-  typical of young wines, through red for mature wines,
-  to brown for older red wines.
-  Some whites age better in stainless steel.
+  A full-service bar and bottle shop dedicated to the idea that <be />
+  <strong>"Everyone deserves a seat at the table"</strong> (or bar!). 
+   
+  Wine doesn’t have to be pretentious or intimidating—it’s just grape juice! 
+  Drinking should be fun. At Darling, you can learn about wine as much or as little as you like.
 
 glass_list: >-
-  Roll the wine around your mouth with your tongue and note the different flavors.
-  Burgundy is the definition of a strong red. A complex cabernet is a good one.
-  Sulfites are found in nearly all wines, produced by the yeast during fermentation.
-  The Romans cooked grape juice in lead pots to sweeten their wine... and to poison their wine.
-  Chenin blanc boasts a bouquet of fresh pears, saffron, jasmine, ginger, and quince.
+  At Darling, the glass list changes frequently.
+  We want you to be able to explore new flavors and varietals from across the world. 
+  Call it a dynamic rotation.
+  We aim to keep your experience fresh and exciting.
+
+  You will always find <br />
+  3 Reds, 3 Whites, a Sparkling, a Rose, and an Orange
 
 cocktails: >-
-  Roll the wine around your mouth with your tongue and note the different flavors.
-  Burgundy is the definition of a strong red. A complex cabernet is a good one.
-  Sulfites are found in nearly all wines, produced by the yeast during fermentation.
-  The Romans cooked grape juice in lead pots to sweeten their wine... and to poison their wine.
-  Chenin blanc boasts a bouquet of fresh pears, saffron, jasmine, ginger, and quince.
+  Darling offers a full cocktail bar with a limited list of features aimed to reflect the season.
+  (Spritzs are always in)
 
+Check our Specials Board for fun and whimsy
 # when modifying this data please upload a new photo to /assets/img/bartenders with the format Name.png to match the bartenders name here
 bartenders:
   - name: Alex
