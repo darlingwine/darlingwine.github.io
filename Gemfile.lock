@@ -1,7 +1,5 @@
-GIT
-  remote: https://github.com/whatnotery/jekyll-ical-tag.git
-  revision: e74f6786e60e44c4bc39357dd73c66625aed0339
-  branch: feature/recurring-events
+PATH
+  remote: ../jekyll-ical-tag
   specs:
     jekyll-ical-tag (1.5.1)
       activesupport (~> 7.1)
