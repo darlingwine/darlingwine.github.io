@@ -3,7 +3,7 @@
     <a id="calendar-link" href="{{site.data.winebar.calendar_link}}"
         ><super><em>subscribe</em></super></a
     >
-    {% assign yesterday = 'now' | minus: 86400 %}
+    {% assign yesterday = 'now' | date: '%s' | minus: 86400 | date: '%Y-%m-%d' %}
     {% ical url: {{site.data.winebar.calendar_link}} after_date: {{yesterday}} limit:
     4%}
     <hr class="border-[#ee3831] border-2 w-2/3 mx-auto my-4 rounded-lg" />
