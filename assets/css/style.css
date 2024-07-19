@@ -5,10 +5,9 @@
     font-style: normal;
 }
 
-#events a {
+#events a,
+#about a {
     text-decoration: underline;
-}
-
-#events a:hover {
-    font-style: italic;
+    font-family: "Bitter", serif;
+    font-weight: semibold;
 }

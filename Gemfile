@@ -16,7 +16,7 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem 'jekyll-ical-tag', github: "Rakefire/jekyll-ical-tag", branch: 'feature/recurring-events'
+  gem 'jekyll-ical-tag', github: "Rakefire/jekyll-ical-tag", branch: 'feature/recurring-events' # branch: 'feature/recurring-events'
 
 end
 
