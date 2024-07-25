@@ -23,13 +23,33 @@ cocktails: >-
 # when modifying this data please upload a new photo to /assets/img/bartenders with the format Name.png to match the bartenders name here
 bartenders:
   - name: Alex
-    tidbit: likes oranges!
+    tidbit: >-
+      a scholar of natural & low intervention wine
+      <br/>
+      malort, laphroig ten
+      <br/>
+      all-singing, all-dancing
   - name: Callie
-    tidbit: likes roses!
+    tidbit: >-
+      an enthusiast of the natural & heartfelt (wine & beyond)
+      <br/>
+      bubbles & funk
+      <br/>
+      millennial cusp
   - name: Joe
-    tidbit: likes reds!
+    tidbit: >-
+      a maestro of bitter & herbaceous
+      <br/>
+      amaro & tiki
+      <br />
+      late stage capitalism punk
   - name: Sean
-    tidbit: likes whites!
+    tidbit: >-
+      a bourbon encyclopedia, a cocktail connoisseur
+      <br/>
+      malort? malort.
+      <br/>
+      he sees a mountain, he climbs
 
 email: DarlingWineBarLex@gmail.com
 

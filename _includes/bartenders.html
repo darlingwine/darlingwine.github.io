@@ -3,7 +3,7 @@
 
     <div class="flex flex-wrap justify-center">
         {% for bartender in site.data.winebar.bartenders %}
-        <div class="flex flex-col items-center px-7 pb-4">
+        <div class="flex flex-col items-center px-1 md:w-1/2 pb-6">
             {% capture bartender_photo_url
             %}/assets/img/bartenders/{{bartender.name}}.png {% endcapture %}
             <img
@@ -11,8 +11,9 @@
                 class="rounded-full border-4 border-[#ee3831] w-40"
             />
             <h3 class="bitter-font font-bold">{{bartender.name}}</h3>
-            <p>{{bartender.tidbit}}</p>
+            <p class="text-xs w-2/3">{{bartender.tidbit}}</p>
         </div>
         {% endfor %}
     </div>
+</section>
 </section>
