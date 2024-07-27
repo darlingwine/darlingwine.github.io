@@ -4,7 +4,8 @@ about: >-
   <br />
   <br />
   Wine doesn’t have to be pretentious or intimidating—it’s just grape juice! <br />
-  Drinking should be fun. At Darling, you can learn about wine as much or as little as you like.
+  Drinking should be fun. At Darling, you can learn about wine as much or as little as you like. <br />
+  <span class="bitter-font font-bold	">Natural, Low Intervention, Low/No Sulfites Wines</span>
 
 glass_list: >-
   At Darling, the glass list changes frequently. We want you to be able to explore new flavors and varietals from across the world.
@@ -24,23 +25,23 @@ cocktails: >-
 bartenders:
   - name: Alex
     tidbit: >-
-      a scholar of natural & low intervention wine. <br/>
-      malort, laphroig ten. <br/>
+      a student of natural & low intervention wine <br/>
+      malort, laphroig ten <br/>
       all-singing, all-dancing
   - name: Callie
     tidbit: >-
       an enthusiast of the natural & heartfelt (wine & beyond)<br/>
-      bubbles & funk.<br/>
+      bubbles & funk<br/>
       millennial cusp
   - name: Joe
     tidbit: >-
-      a maestro of bitter & herbaceous.<br/>
-      amaro & tiki.<br/>
+      a maestro of bitter & herbaceous<br/>
+      amaro & tiki<br/>
       late stage capitalism punk
   - name: Sean
     tidbit: >-
-      a bourbon encyclopedia, a cocktail connoisseur.<br/>
-      malort? malort.<br/>
+      a bourbon encyclopedia, a cocktail connoisseur<br/>
+      malort? malort<br/>
       he sees a mountain, he climbs
 
 email: DarlingWineBarLex@gmail.com
