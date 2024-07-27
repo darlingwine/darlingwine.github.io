@@ -1,5 +1,8 @@
 <section id="events" class="mx-auto text-center w-4/5 md:w-1/2">
     <h2 class="bitter-font text-2xl mx-auto pb-2">Events</h2>
+    <a id="calendar-link" href="{{site.data.winebar.calendar_link}}"
+        ><super><em>subscribe</em></super></a
+    >
     {% assign yesterday = 'now' | date: '%s' | minus: 86400 | date: '%Y-%m-%d'
     %} {% ical url: {{site.data.winebar.calendar_link}} after_date:
     {{yesterday}} limit: 3 %}

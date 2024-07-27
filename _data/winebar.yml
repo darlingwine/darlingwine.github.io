@@ -24,31 +24,23 @@ cocktails: >-
 bartenders:
   - name: Alex
     tidbit: >-
-      a scholar of natural & low intervention wine
-      <br/>
-      malort, laphroig ten
-      <br/>
+      a scholar of natural & low intervention wine. <br/>
+      malort, laphroig ten. <br/>
       all-singing, all-dancing
   - name: Callie
     tidbit: >-
-      an enthusiast of the natural & heartfelt (wine & beyond)
-      <br/>
-      bubbles & funk
-      <br/>
+      an enthusiast of the natural & heartfelt (wine & beyond)<br/>
+      bubbles & funk.<br/>
       millennial cusp
   - name: Joe
     tidbit: >-
-      a maestro of bitter & herbaceous
-      <br/>
-      amaro & tiki
-      <br />
+      a maestro of bitter & herbaceous.<br/>
+      amaro & tiki.<br/>
       late stage capitalism punk
   - name: Sean
     tidbit: >-
-      a bourbon encyclopedia, a cocktail connoisseur
-      <br/>
-      malort? malort.
-      <br/>
+      a bourbon encyclopedia, a cocktail connoisseur.<br/>
+      malort? malort.<br/>
       he sees a mountain, he climbs
 
 email: DarlingWineBarLex@gmail.com
