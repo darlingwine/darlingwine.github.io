@@ -21,7 +21,7 @@
 title: Darling Wine Bar - A darling lil bar for darling lil people
 description: >- # this means to ignore newlines until "baseurl:"
   A darling lil bar for darling lil people
-  Located in Greyline Station in Lexington KY
+  Located in Greyline Station in Lexington KY.
   Natural, Low Intervention, Low Sulfite Wines
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
