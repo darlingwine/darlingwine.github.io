@@ -2,9 +2,6 @@
 title: Darling Wine Bar - A darling lil bar for darling lil people
 timezone: America/New_York
 collections:
-  _data-winebar.yml:
-    title: Posts
-    output: true
   posts:
     title: Posts
     output: true
