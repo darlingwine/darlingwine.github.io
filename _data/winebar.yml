@@ -25,24 +25,23 @@ cocktails: >-
 bartenders:
   - name: Alex
     tidbit: >-
+      <i>She/Her</i><br/>
       a student of natural & low intervention wine <br/>
       malort, laphroig ten <br/>
       all-singing, all-dancing
-  - name: Callie
-    tidbit: >-
-      an enthusiast of the natural & heartfelt (wine & beyond)<br/>
-      bubbles & funk<br/>
-      millennial cusp
-  - name: Michael
-    tidbit: >-
-      cocktail maestro,<br/> wine dictionary<br/>
-      ask mikey, he'll drink anything<br/>
-      papa is a rolling stone
   - name: Sean
     tidbit: >-
-      a bourbon encyclopedia, a cocktail connoisseur<br/>
+      <i>He/him</i><br/>
+      a bourbon encyclopedia<br/>
       malort? malort<br/>
       he sees a mountain, he climbs
+  - name: Portia
+    tidbit: >-
+      <i>She/Her</i><br/>
+      cocktail connoisseur<br/>
+      last word enthusiast<br/>
+      tiki time!<br/>
+      getting spooky with it
 
 email: hello@darlingwinebar.com
 
